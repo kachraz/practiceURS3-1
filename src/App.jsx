@@ -1,5 +1,5 @@
 import SolarSystem from "./sso/SSO";
-import headerImage from "https://media.tenor.com/sv5nNRArK5UAAAAi/kiss-lips-kisses.gif";
+import headerImage from "./assets/kl.gif";
 // -------------------
 
 // --- Code responsible for the random geenration
@@ -35,7 +35,7 @@ function Header() {
 
   return (
     <header>
-      <img src={headerImage} />
+      <img src={headerImage} alt="Kissing lips GIF" />
       <h1>{description} Essentials</h1>
       <p>
         {description}👄 panty concepts you will need for almost any app you are
