@@ -148,3 +148,11 @@ main h2 {
 #tab-content code {
   font-size: 1rem;
 }
+
+#SolarSystem {
+  padding: 5rem;
+  transition: transform 1s ease;
+}
+#SolarSystem:hover {
+  transform: scale(0.5);
+}

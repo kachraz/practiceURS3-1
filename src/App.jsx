@@ -45,14 +45,34 @@ function Header() {
   );
 }
 
+function CoreConcept() {
+  return (
+    <li>
+      <img src="" alt="" />
+      <h3>TITLE</h3>
+      <p>DESCRIPTION</p>
+    </li>
+  );
+}
+
 function App() {
   return (
     <div>
       <Header />
       <main>
-        <h2>Time to get started!</h2>
+        <section id="core-concepts">
+          <h2>Core Concepts</h2>
+          <ul>
+            <CoreConcept />
+            <CoreConcept />
+            <CoreConcept />
+            <CoreConcept />
+          </ul>
+        </section>
       </main>
-      <SolarSystem />
+      <div id="SolarSystem">
+        <SolarSystem />
+      </div>
     </div>
   );
 }
