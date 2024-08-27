@@ -1,3 +1,5 @@
+import SolarSystem from "./SSO";
+
 function App() {
   return (
     <div>
@@ -12,6 +14,7 @@ function App() {
       <main>
         <h2>Time to get started!</h2>
       </main>
+      <SolarSystem />
     </div>
   );
 }
