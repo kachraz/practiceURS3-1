@@ -151,10 +151,11 @@ main h2 {
 
 #SolarSystem {
   padding: 5rem;
+  padding-bottom: 10rem;
   transition: transform 1s ease, filter 5s ease;
   filter: none;
 }
 #SolarSystem:hover {
   filter: hue-rotate(180deg);
-  transform: scale(0.9);
+  transform: scale(1.5);
 }

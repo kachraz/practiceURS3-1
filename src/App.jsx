@@ -1,5 +1,6 @@
 import SolarSystem from "./sso/SSO";
 import headerImage from "./assets/kl.gif";
+import componentsImg from "./assets/components.png";
 // -------------------
 
 // --- Code responsible for the random geenration
@@ -35,7 +36,9 @@ function Header() {
 
   return (
     <header>
-      <img src={headerImage} alt="Kissing lips GIF" />
+      <div id="SolarSystem">
+        <SolarSystem />
+      </div>
       <h1>{description} Essentials</h1>
       <p>
         {description}👄 panty concepts you will need for almost any app you are
@@ -63,16 +66,17 @@ function App() {
         <section id="core-concepts">
           <h2>Core Concepts</h2>
           <ul>
-            <CoreConcept />
+            <CoreConcept
+              title="Components"
+              description="The Core UI Building Block"
+              img={componentsImg}
+            />
             <CoreConcept />
             <CoreConcept />
             <CoreConcept />
           </ul>
         </section>
       </main>
-      <div id="SolarSystem">
-        <SolarSystem />
-      </div>
     </div>
   );
 }
